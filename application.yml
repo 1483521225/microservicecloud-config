@@ -4,12 +4,12 @@ spring:
     -dev
 ---
 spring:
-    profiles：dev    #开发环境
-    application：
+    profiles:dev    #开发环境
+    application:
     name:microservicecloud-config-atguigu-dev
 
 ---
 spring:
-    profiles：dev    #测试环境
-    application：
+    profiles:dev    #测试环境
+    application:
     name:microservicecloud-config-atguigu-test
